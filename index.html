@@ -4,22 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
     <link rel="stylesheet" href="src/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Poppins:wght@300;400;600;700;800&family=Sacramento&display=swap" rel="stylesheet"></head>
+    <script src="https://kit.fontawesome.com/29f516d261.js" crossorigin="anonymous"></script>
+    <title>Portfolio</title>
 <body>
     <section class="hero">
         <nav>
             <img class="logo" src="src/images/logo.png" alt="Andre'-Booth-logo">
-            <ul>
+            <ul id="nav-list">
                 <li> <a href="#about-me">About me</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li> <a href="#contact-me">Contact me</a></li>
             </ul>
+            <button class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </button>
         </nav>
         <div class="hero-area">
             <div class="hero-text">
@@ -87,7 +91,10 @@
         </div>
     </section>
 
-    <footer id="contact-me"></footer>
+    <footer id="contact-me">
+        <h2>Contact Me</h2>
+        <p>andreleroy.booth@gmail.com</p>
+    </footer>
     
 
     <script src="src/app.js"></script>

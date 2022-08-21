@@ -17,10 +17,12 @@ section {
 }
 
 footer {
-height: 500px;
-
+color: white;
 background-color: black;
+text-align: center;
+padding: 80px;
 }
+
 
 nav {
     display:flex;
@@ -33,6 +35,10 @@ ul {
     width: 500px;
     justify-content: space-around;
     font-size: 30px;
+}
+
+ul.show {
+    display: block;
 }
 
 li {
@@ -141,6 +147,14 @@ p {
     display: flex;
     justify-content: space-around;
 }
+/* anything under or at least 1000px is going to have a different set of styling  */
+@media only screen and (max-width: 1000px) {
+    .project-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}
 
 .project-image {
     margin-top: 25px;
@@ -161,4 +175,25 @@ hr {
 a {
     text-decoration: none;
     color: white
+}
+
+.hamburger {
+    display: none;
+}
+
+.hamburger:focus{
+    outline:none;
+}
+
+@media only screen and (max-width:1000px) {
+    .hamburger {
+        display: block;
+        border: 0;
+        background-color:transparent;
+        color:white;
+        font-size: 30px;
+    }
+    ul {
+        display:none;
+    }
 }
