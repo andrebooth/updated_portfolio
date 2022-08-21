@@ -6,7 +6,7 @@ body {
 section {
     
     background-color: white;
-    border: solid black 1px;
+    
 }
 
 .hero {
@@ -53,6 +53,11 @@ h2 {
 p {
     margin: 0px;
     font-weight: 300;
+}
+
+.subtext {
+    font-size: 15px;
+    font-weight: 300px;
 }
 
 .hero-area {
@@ -128,10 +133,32 @@ p {
 .project-card {
     width: 300px;
     height: 500px;
-    border: 1px solid black;
+    box-shadow: 5px 5px 20px rgb(174, 172, 172);
+    margin: 10px;
 }
 
 .project-container {
     display: flex;
     justify-content: space-around;
+}
+
+.project-image {
+    margin-top: 25px;
+    width: 250px;
+    border-radius: 150px;
+}
+
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.project-link {
+    text-decoration: none;
+    color: #ef744b;
+}
+
+a {
+    text-decoration: none;
+    color: white
 }
