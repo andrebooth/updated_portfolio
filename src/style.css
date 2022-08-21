@@ -192,8 +192,22 @@ a {
         background-color:transparent;
         color:white;
         font-size: 30px;
+        margin: 20px;
+        align-self: flex-end;
     }
     ul {
+        display:none;
+        background-color: #313341;
+        margin: 0px;
+    }
+
+    nav {
+        align-items: flex-start;
+        flex-direction: column-reverse;
+        background-color: #313341;
+    }
+
+    .logo {
         display:none;
     }
 }
