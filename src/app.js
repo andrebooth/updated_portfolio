@@ -5,4 +5,4 @@ function toggleButton(){
     navList.classList.toggle('show')
 }
 
-hamburgerButton.addEventListener('click', toggleButton)
+hamburgerButton.addEventListener('click', toggleButton);
